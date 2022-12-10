@@ -7,6 +7,7 @@ import Cadastro from './Pages/Cadastro';
 
 import Header from './components/Header';
 import GlobalStyles from './styles/GlobalStyles';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/cadastro" element={<Cadastro />} />
     </Routes>
+    <Footer />
     <GlobalStyles />
   </Router>,
 );
