@@ -4,25 +4,25 @@ const Container = styled.main`
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 14.5rem);
+  height: 85%;
   margin: 0 auto;
   padding: 2rem 0;
   width: 1200px;
 
-  @media (max-width: 1200px) {
+  span {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  @media (max-width: 768px) {
     width: 100%;
   }
 
-  @media (max-width: 768px) {
-    height: calc(100vh - 5rem);
+  @media (max-width: 600px) {
+    width: 100%;
   }
 
-  @media (max-width: 425px) {
-    height: calc(100vh - 4rem);
-  }
-
-  @media (max-width: 375px) {
-    height: calc(100vh - 3.5rem);
+  @media (max-width: 480px) {
+    width: 100%;
   }
 `;
 

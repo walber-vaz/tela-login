@@ -4,6 +4,7 @@ const Container = styled.footer`
   align-items: center;
   display: flex;
   flex-direction: column;
+  /* border: 0.1rem solid red; */
   height: 8rem;
   padding: 1rem;
 
