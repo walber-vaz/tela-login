@@ -3,7 +3,7 @@ function App() {
     <div>
       <h1>Olá, Mundo!</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
