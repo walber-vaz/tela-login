@@ -1,0 +1,14 @@
+{
+  "verbose": true,
+  "watch": [
+    "src",
+    "src/server.js"
+  ],
+  "ext": "js, mjs, jsx, ts, tsx, json, node",
+  "ignore": [
+    "*.test.js",
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "delay": "3"
+}
