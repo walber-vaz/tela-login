@@ -19,7 +19,9 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/prefer-stateless-function": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off"
     // "react/state-in-constructor": "off",
     // "class-methods-use-this": "off"
   }

@@ -30,6 +30,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
     background-color: var(--bg-primary);
     color: var(--color-primary);
+    font-family: sans-serif;
   }
 
   #root {
