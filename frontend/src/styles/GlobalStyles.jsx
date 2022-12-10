@@ -2,8 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --bg-primary: rgb(36, 55, 72);
-    --color-primary: rgb(247, 244, 243);
+    --bg-primary: rgb(247, 244, 243);
+    --bg-secondary: rgb(36, 55, 72);
+    --color-primary: rgb(36, 55, 72);
+    --color-secondary: rgb(247, 244, 243);
+    --color-hover: rgb(186, 27, 29);
+    --color-shadow: rgba(0, 0, 0, 0.2);
     /**
     --charcoal: rgb(36, 55, 72);
     --blue-yonder: rgb(75, 116, 159);

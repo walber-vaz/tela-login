@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home';
 import Cadastro from './Pages/Cadastro';
-import GlobalStyles from './styles/GlobalStyles';
+
 import Header from './components/Header';
+import GlobalStyles from './styles/GlobalStyles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
