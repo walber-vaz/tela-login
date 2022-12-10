@@ -5,6 +5,7 @@ const Container = styled.header`
   color: var(--color-primary);
   display: flex;
   flex-direction: column;
+  align-items: center;
   box-shadow: 0rem 0.5rem 0.8rem var(--color-shadow);
 
   nav {
@@ -22,6 +23,12 @@ const Container = styled.header`
 
       li {
         margin: 0 1rem;
+
+        svg {
+          margin-right: 0.5rem;
+          font-size: 2rem;
+          color: var(--color-secondary);
+        }
 
         a {
           color: var(--color-secondary);
