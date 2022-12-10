@@ -1,8 +1,13 @@
+import React from 'react';
+import Home from './Pages/Home';
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
-    <div>
-      <h1>Olá, Mundo!</h1>
-    </div>
+    <>
+      <Home />
+      <GlobalStyles />
+    </>
   );
 }
 
