@@ -5,7 +5,7 @@ const Container = styled.footer`
   display: flex;
   flex-direction: column;
   /* border: 0.1rem solid red; */
-  height: 8rem;
+  height: 6rem;
   padding: 1rem;
 
   p {
@@ -29,24 +29,6 @@ const Container = styled.footer`
     &:hover {
       color: var(--color-hover);
       border-bottom: 0.1rem solid var(--color-hover);
-    }
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-
-    svg {
-      margin: 0 0.4rem;
-      font-size: 2.8rem;
-      color: var(--bg-secondary);
-      transition: color 0.4s ease-in-out;
-
-      &:hover {
-        color: var(--color-hover);
-      }
     }
   }
 `;

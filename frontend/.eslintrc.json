@@ -22,7 +22,8 @@
     "no-console": "off",
     "react/function-component-definition": "off",
     "arrow-body-style": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off"
     // "react/state-in-constructor": "off",
     // "class-methods-use-this": "off"
   }
