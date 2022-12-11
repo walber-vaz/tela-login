@@ -6,10 +6,9 @@ const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
   text-align: center;
-  padding: 2rem;
-  border: 0.5rem solid red;
+  /* border: 0.1rem solid red; */
+  height: 100%;
 
   h2 {
     font-size: 2.8rem;
@@ -31,7 +30,7 @@ const Wrap = styled.div`
   width: 80%;
   margin: 0 auto;
   padding: 2rem;
-  border: 0.5rem solid blue;
+  /* border: 0.1rem solid blue; */
 `;
 
 export { Container, Wrap };

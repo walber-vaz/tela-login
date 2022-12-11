@@ -6,8 +6,8 @@ const Container = styled.footer`
   flex-direction: column;
   justify-content: center;
   /* border: 0.1rem solid red; */
-  height: 6rem;
-  padding: 0 1rem;
+  height: 100px;
+  width: 100%;
 
   p {
     font-size: 1.8rem;

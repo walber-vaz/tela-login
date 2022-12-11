@@ -37,16 +37,19 @@ const GlobalStyles = createGlobalStyle`
     font-family: sans-serif;
   }
 
-  #root {
-    height: 100vh;
-  }
-
   ul, li {
     list-style: none;
   }
 
   a {
     text-decoration: none;
+  }
+
+  #root {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 `;
 

@@ -3,31 +3,27 @@ import styled from 'styled-components';
 const Container = styled.main`
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  height: 81%;
-  margin: 0 auto;
   padding: 0 2rem;
-  width: 100%;
-  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+  width: 1200px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1115px) {
+    width: 70%;
     flex-direction: column;
-    width: 100%;
   }
 
   @media (max-width: 768px) {
+    width: 65%;
     flex-direction: column;
-    width: 95%;
-  }
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-    width: 90%;
   }
 
   @media (max-width: 480px) {
+    width: 60%;
     flex-direction: column;
-    width: 85%;
   }
 `;
 

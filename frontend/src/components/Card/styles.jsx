@@ -2,14 +2,13 @@ import styled from 'styled-components';
 
 const Container = styled.section`
   display: flex;
-  width: 100%;
+  width: 60%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
   text-align: center;
-  border: 0.5rem solid red;
-  padding: 2rem;
+  /* border: 0.1rem solid red; */
+  height: 100%;
 `;
 
 const Wrap = styled.div`
@@ -20,28 +19,13 @@ const Wrap = styled.div`
   width: 80%;
   margin: 0 auto;
   padding: 2rem;
-  border: 0.5rem solid blue;
+  /* border: 0.1rem solid blue; */
 
   img {
     border-radius: 50%;
     border: 0.5rem solid var(--color-hover);
     width: 200px;
     height: 200px;
-
-    @media (max-width: 1024px) {
-      width: 180px;
-      height: 180px;
-    }
-
-    @media (max-width: 768px) {
-      width: 150px;
-      height: 150px;
-    }
-
-    @media (max-width: 600px) {
-      width: 100px;
-      height: 100px;
-    }
   }
 
   h3 {
