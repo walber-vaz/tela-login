@@ -1,17 +1,17 @@
 import perfil from '../../assets/perfil-1.jpg';
 import Card from '../../components/Card';
-import { Container } from './styles';
+import Sobre from '../../components/Sobre';
+import { Container, ContainerTitle } from './styles';
 
 const Home = () => {
   return (
-    <Container>
-      <h2>Simples Cadastro de usuários</h2>
-      <main>
-        <section>
-          <Card perfil={perfil} />
-        </section>
-      </main>
-    </Container>
+    <>
+      <ContainerTitle>Simples Cadastro de usuários</ContainerTitle>
+      <Container>
+        <Card perfil={perfil} />
+        <Sobre />
+      </Container>
+    </>
   );
 };
 

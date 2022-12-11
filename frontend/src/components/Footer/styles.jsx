@@ -4,9 +4,10 @@ const Container = styled.footer`
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   /* border: 0.1rem solid red; */
   height: 6rem;
-  padding: 1rem;
+  padding: 0 1rem;
 
   p {
     font-size: 1.8rem;

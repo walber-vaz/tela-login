@@ -1,49 +1,41 @@
 import styled from 'styled-components';
 
 const Container = styled.main`
-  align-items: center;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 88%;
+  flex-direction: row;
+  gap: 2rem;
+  height: 81%;
   margin: 0 auto;
-  padding: 2rem 0;
-  width: 1200px;
+  padding: 0 2rem;
+  width: 100%;
+  overflow: hidden;
 
-  h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-top: 2rem;
-  }
-
-  section {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+  @media (max-width: 1024px) {
+    flex-direction: column;
     width: 100%;
-    text-align: center;
-
-    @media (max-width: 768px) {
-      flex-direction: column;
-    }
-
-    @media (max-width: 600px) {
-      flex-direction: column;
-    }
   }
 
   @media (max-width: 768px) {
-    width: 100%;
+    flex-direction: column;
+    width: 95%;
   }
 
   @media (max-width: 600px) {
-    width: 100%;
+    flex-direction: column;
+    width: 90%;
   }
 
   @media (max-width: 480px) {
-    width: 100%;
+    flex-direction: column;
+    width: 85%;
   }
 `;
 
-export { Container };
+const ContainerTitle = styled.h2`
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 2.2rem;
+  text-align: center;
+`;
+
+export { Container, ContainerTitle };

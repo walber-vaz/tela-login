@@ -7,20 +7,18 @@ import { Container } from './styles';
 const Header = () => {
   return (
     <Container>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <AiOutlineHome />
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <AiOutlineUserAdd />
-              <Link to="/cadastro">Cadastro</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <nav>
+        <ul>
+          <li>
+            <AiOutlineHome />
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <AiOutlineUserAdd />
+            <Link to="/cadastro">Cadastro</Link>
+          </li>
+        </ul>
+      </nav>
     </Container>
   );
 };
