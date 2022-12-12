@@ -1,6 +1,8 @@
 
 # Estudo React(Frontend) e Backend(Nodejs)
 
+🚨 __Projeto em Contrução__ 🚨
+
 Projeto de estudo de integração backend com frontend
 
 
