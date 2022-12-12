@@ -10,15 +10,16 @@ Projeto de estudo de integração backend com frontend
 
 ## Autores
 
-- [@walber-vaz](https://www.github.com/walber-vaz)
+- 👤 [@walber-vaz](https://www.github.com/walber-vaz)
+- 👤 [Linkedin](https://www.linkedin.com/in/walber-vaz/)
 
 
 ## Demonstração
 __Frontend__
-![Frontend](frontend.gif)
+💅 ![Frontend](frontend.gif)
 
 __Backend__
-![backend](backend.png)
+💀 ![backend](backend.png)
 
 
 ## Funcionalidades
