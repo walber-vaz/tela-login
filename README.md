@@ -14,7 +14,11 @@ Projeto de estudo de integração backend com frontend
 
 
 ## Demonstração
+__Frontend__
+![Frontend](imgs/Peek 11-12-2022 20-42.gif)
 
+__Backend__
+![backend](imgs/Captura de tela_2022-12-10_08-32-28.png)
 
 
 ## Funcionalidades
