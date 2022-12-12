@@ -1,1 +1,39 @@
-# Projeto de estudo de integração backend Node com Frontend React
+
+# Estudo React(Frontend) e Backend(Nodejs)
+
+Projeto de estudo de integração backend com frontend
+
+
+
+
+## Autores
+
+- [@walber-vaz](https://www.github.com/walber-vaz)
+
+
+## Demonstração
+
+
+
+## Funcionalidades
+
+Frontend
+- React 18
+- vite
+- react-router-dom
+- styled-components
+Backend
+- Nodejs 18.x
+- express
+- cors
+- mondodb atlas
+
+
+## 🚀 Sobre mim
+Eu sou uma pessoa estudante web full-stack... na [Trybe](https://www.betrybe.com/)
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
