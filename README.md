@@ -28,6 +28,7 @@ Frontend
 - vite
 - react-router-dom
 - styled-components
+
 Backend
 - Nodejs 18.x
 - express
